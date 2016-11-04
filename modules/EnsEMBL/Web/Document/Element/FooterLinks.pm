@@ -32,16 +32,15 @@ use strict;
 
 sub content {
 
-## BEGIN LEPBASE MODIFICATIONS...
+## BEGIN Tardibase MODIFICATIONS...
   return qq(
     <div class="twocol-right right">
-      <a href="https://bitbucket.org/lepbase/lepbase/issues?status=new&status=open" title="report an issue">report an issue</a> |
-      <a href="http://www.lepbase.org" title="lepbase.org">lepbase.org</a> |
-      <a href="mailto:contact\@lepbase.org" title="contact\@lepbase.org">contact us</a> |
+      <a href="http://www.tardibase.org" title="tardibase.org">tardibase.org</a> |
+      <a href="mailto:contact\@tardibase.org" title="contact\@tardibase.org">contact us</a> |
       <a href="http://www.ensembl.org/" title="ensembl.org"><img style="height:auto;margin-top:-5px;background:none;border:none;" src="/i/empowered.png"></img></a>
     </div>)
   ;
-## ...END LEPBASE MODIFICATIONS
+## ...END Tardibase MODIFICATIONS
 }
 
 1;

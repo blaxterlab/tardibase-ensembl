@@ -35,18 +35,10 @@ sub content {
 
   my $sd = $self->species_defs;
 
-#  return sprintf( qq(
-#  <div class="column-two left">
-#		   %s release %d - %s
-#		  &copy; <span class="print_hide"><a href="http://www.lepbase.org/" style="white-space:nowrap">EBI</a></span>
-#      <span class="screen_hide_inline">LepBase</span>
-#  </div>),     $sd->SITE_NAME, $sd->SITE_RELEASE_VERSION, $sd->SITE_RELEASE_DATE
-#	       );
-## BEGIN LEPBASE MODIFICATIONS...
+## BEGIN TARDIBASE MODIFICATIONS...
 my $html = '<div class=lb-ackn-logos>';
-$html .= '<a href="http://ed.ac.uk"><img title="University of Edinburgh" class="lb-footer-logo" src="/img/edinburgh_logo.png"></a>';
-$html .= '<a href="http://cam.ac.uk"><img title="University of Cambridge" class="lb-footer-logo" src="/img/cambridge_logo.jpg"></a>';
-$html .= '<a href="http://york.ac.uk"><img title="University of York" class="lb-footer-logo" src="/img/york_logo.jpg"></a>';
+$html .= '<a href="https://www.keio.ac.jp"><img title="Keio University" class="lb-footer-logo" src="/img/keio_logo.png"></a>';
+$html .= '<a href="http://www.ed.ac.uk"><img title="University of Edinburgh" class="lb-footer-logo" src="/img/edinburgh_logo.png"></a>';
 $html .= '<a href="http://bbsrc.ac.uk"><img title="bbsrc" class="lb-footer-logo" src="/img/bbsrc_logo.jpg"></a>';
 
 $html .= '</div>';
@@ -54,10 +46,10 @@ $html .= '</div>';
   return sprintf( qq(
   <div class="column-two left">
 		   %s release %s - %s -
-		  Lepbase &copy; <span class="print_hide"><a href="http://www.ed.ac.uk/" style="white-space:nowrap">Edinburgh University</a> / EnsEMBL &copy; <a href="http://www.ebi.ac.uk/" style="white-space:nowrap">EBI</a></span>
-      <span class="screen_hide_inline">Lepbase</span> %s
-  </div>),     "Lepbase", "3", "August 2016", $html
-## ...END LEPBASE MODIFICATIONS
+		  tardigrades.org &copy; <span class="print_hide"><a href="http://www.ed.ac.uk/" style="white-space:nowrap">Edinburgh University</a> / EnsEMBL &copy; <a href="http://www.ebi.ac.uk/" style="white-space:nowrap">EBI</a></span>
+      <span class="screen_hide_inline">tardigrades.org</span> %s
+  </div>),     "tardigrades.org", "1", "November 2016", $html
+## ...END TARDIBASE MODIFICATIONS
 	       );
 
 }
