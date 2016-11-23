@@ -1,4 +1,4 @@
-\=head1 LICENSE
+=head1 LICENSE
 
 Copyright [2009-2014] EMBL-European Bioinformatics Institute
 
