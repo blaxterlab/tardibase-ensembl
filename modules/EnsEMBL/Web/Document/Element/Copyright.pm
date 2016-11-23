@@ -1,4 +1,4 @@
-=head1 LICENSE
+\=head1 LICENSE
 
 Copyright [2009-2014] EMBL-European Bioinformatics Institute
 
@@ -46,7 +46,7 @@ $html .= '</div>';
   return sprintf( qq(
   <div class="column-two left">
 		   %s release %s - %s -
-		  tardigrades.org &copy; <span class="print_hide"><a href="http://www.ed.ac.uk/" style="white-space:nowrap">Edinburgh University</a> / EnsEMBL &copy; <a href="http://www.ebi.ac.uk/" style="white-space:nowrap">EBI</a></span>
+		  tardigrades.org &copy; <span class="print_hide"><a href="http://www.ed.ac.uk/" style="white-space:nowrap">Edinburgh University</a> / EnsEMBL &copy; <a href="http://www.ebi.ac.uk/" style="white-space:nowrap">EBI</a> -- Tardigrade logo<a href="http://www.kumamushisan.net/en/labo.html" style="white-space:nowrap">©TARUDI & Camo Sakamoto</a></span>
       <span class="screen_hide_inline">tardigrades.org</span> %s
   </div>),     "tardigrades.org", "1", "November 2016", $html
 ## ...END TARDIBASE MODIFICATIONS
