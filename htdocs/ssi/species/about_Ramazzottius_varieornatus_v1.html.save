@@ -1,0 +1,20 @@
+<!-- {about} --><a name="about"></a>
+  <p>&nbsp</p>
+  <p><em>Ramazzottius varieornatus</em> is a herbivorous species of tardigrade known for its extreme stress-tolerance. Unlike <em>Hypsibius dujardini</em>, <em>R. varieornatus</em> can easily and rapidly enter an anhydrobiotic state. The genome of R. varieornatus was sequenced and assembled in 2016. The researchers identified a protein, Damage suppressor (Dsup), that is involved in protecting DNA from radiation. Expression of this protein in human cells suppresses X-ray-induced DNA damage by ~40%.</p>
+  <p><!--nbsp--> <!--nbsp--></p>
+  <p id="about"></p>
+<!-- {about} -->
+<!-- {assembly} --><a name="assembly"></a>
+  <h2 id="assembly" style="margin-bottom:5px">Assembly</h2>
+  <p>The genome was sequenced using Illumina and Sanger sequencing technology. [1]</p>
+<!-- {assembly} -->
+<!-- {annotation} --><a name="annotation"></a>
+  <h2 id="annotation" style="margin-bottom:5px">Annotation</h2>
+  <p>annotation description to come, based on publication[1]</p>
+<!-- {annotation} -->
+<!-- {references} -->
+  <h2>References</h2>
+  <ol>
+    <li><a id="ref-01"></a><a href="http://www.nature.com/articles/ncomms12808">Extremotolerant tardigrade genome and improved radiotolerance of human cultured cells by tardigrade-unique protein</a>.
+  </ol>
+ <!-- {references} -->

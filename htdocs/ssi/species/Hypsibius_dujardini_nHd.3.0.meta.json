@@ -1,0 +1,32 @@
+{
+   "species" : {
+      "taxonomy_id" : "232323",
+      "display_name" : "Hypsibius dujardini nHd.3.0",
+      "common_name" : "hypsibius",
+      "scientific_name" : "Hypsibius dujardini"
+   },
+   "genebuild" : {
+      "version" : "1",
+      "cds_count" : "20815",
+      "method" : "import",
+      "transcript_count" : "20815",
+      "start_date" : "2016-10",
+      "exon_count" : "127568",
+      "gene_count" : "19901"
+   },
+   "assembly" : {
+      "span" : "104155103",
+      "date" : "2016-10",
+      "atgc" : "102010630",
+      "accession" : " ",
+      "n" : "2144473",
+      "name" : "nHd.3.0",
+      "gc_percent" : "45.45",
+      "scaffold_count" : "1421"
+   },
+   "provider" : {
+      "url" : "http://tardigrades.org",
+      "name" : "Blaxter Lab"
+   }
+}
+

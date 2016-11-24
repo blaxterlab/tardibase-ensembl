@@ -1,0 +1,32 @@
+{
+   "assembly" : {
+      "atgc" : "55409081",
+      "accession" : " ",
+      "scaffold_count" : "199",
+      "name" : "v1",
+      "gc_percent" : "47.51",
+      "span" : "55828384",
+      "date" : "2016-09",
+      "n" : "419303"
+   },
+   "genebuild" : {
+      "transcript_count" : "22994",
+      "version" : "1",
+      "start_date" : "2016-10",
+      "method" : "import",
+      "exon_count" : "104282",
+      "cds_count" : "22994",
+      "gene_count" : "21493"
+   },
+   "provider" : {
+      "url" : "http://kumamushi.org",
+      "name" : "Kunieda Lab"
+   },
+   "species" : {
+      "display_name" : "Ramazzottius varieornatus v1",
+      "scientific_name" : "Ramazzottius varieornatus",
+      "taxonomy_id" : "947166",
+      "common_name" : "ramazzottius"
+   }
+}
+
